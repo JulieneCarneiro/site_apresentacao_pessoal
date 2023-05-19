@@ -1,8 +1,12 @@
+/* pagina index */
 body {
     font-family: 'Chakra Petch', sans-serif;
     height: 100vh;
     width: 100vw;
     background-image: radial-gradient(circle at 52.39% 77.27%, #127da4 0, #1f607f 25%, #1f4459 50%, #192a36 75%, #0e1317 100%);
+}
+header {
+    margin-top: 20px;
 }
 a {
     text-decoration: none;
@@ -15,7 +19,6 @@ nav {
 img {
     border-radius: 50px;
 }
-/* css do header */
 .sobremim_img {
     display: flex;
     justify-content: flex-start;  
@@ -28,25 +31,59 @@ img {
 }
 .hobbies_form {
     display: flex;
-    margin-left: 120px;
+    margin-left: 220px;
     gap: 40px;
 }
-/* css do main */
-.texto {
+.texto1 {
     color: white;
     display: flex;
     justify-content: center;
     text-decoration: underline;
     margin-top: 50px;
 }
+.texto2 {
+    width: 50%;
+    color: white;
+    margin-top: 50px; 
+    margin-left: 350px;  
+    text-decoration: none;
+
+}
 .imagens {
     height: 200px;
     width: 200px;
-    margin-top: 300px;
-    margin-left: 300px;
+    margin-top: 100px;
+    margin-left: 350px;
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
-
-
+/* pagina de hobbies e interesses */
+.hobbies_img {
+    display: flex;
+    justify-content: flex-start;  
+    margin-left: 100px;  
+}
+.texto3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.texto4 {
+    width: 50%;
+    color: white;
+    margin-top: 70px; 
+    margin-left: 550px;  
+    text-decoration: none;
+}
+.livros {
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 490px;
+    display: flex;
+    flex-direction: row;
+}
+/* pagina contato */
