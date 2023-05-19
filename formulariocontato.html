@@ -21,12 +21,23 @@
                 <img class="alien" src="Imagens/logoheader.png">
             </div>
             <div class="hobbies_form">
+                <a href="index.html">Sobre mim</a>
                 <a href="hobbieseinteresses.html">Interesses</a>
-                <a href="formulariocontato.html">Contato</a>
             </div>
         </nav>
     </header>
     <main>
+        <form method="post" action="receber_dados">
+            <fieldset>
+                <label>Nome: </label>
+                <input type="text" id="user" name="nome">
+                <label>Email: </label>
+                <input type="email" id="user" name="email">
+                <label>Mensagem: </label>
+                <textarea name="Mensagem" cols="50" rows="15"></textarea>
+                <button>Enviar</button>
+            </fieldset>
+        </form>
     </main>
 </body>
 
