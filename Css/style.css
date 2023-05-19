@@ -2,12 +2,20 @@ body {
     font-family: 'Chakra Petch', sans-serif;
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(15deg, #ceebaf 0, #c5ecb4 8.33%, #bdeeba 16.67%, #b5efc0 25%, #acf0c7 33.33%, #a4f1ce 41.67%, #9df2d5 50%, #96f2dc 58.33%, #90f3e4 66.67%, #8bf3ec 75%, #87f3f3 83.33%, #84f2fa 91.67%, #84f2ff 100%);
+    background-image: radial-gradient(circle at 52.39% 77.27%, #127da4 0, #1f607f 25%, #1f4459 50%, #192a36 75%, #0e1317 100%);
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 nav {
     display: flex;
     font-size: x-large
 }
+img {
+    border-radius: 50px;
+}
+/* css do header */
 .sobremim_img {
     display: flex;
     justify-content: flex-start;  
@@ -23,3 +31,22 @@ nav {
     margin-left: 120px;
     gap: 40px;
 }
+/* css do main */
+.texto {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.imagens {
+    height: 200px;
+    width: 200px;
+    margin-top: 300px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
