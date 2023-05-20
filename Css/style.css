@@ -2,8 +2,13 @@
 body {
     height: 100vh;
     width: 100vw;
+    max-width: 100%;
     background-image: radial-gradient(circle at 52.39% 77.27%, #127da4 0, #1f607f 25%, #1f4459 50%, #192a36 75%, #0e1317 100%);
-    text-align: center;
+}
+.container {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
 }
 .cabecalho {
     width: 100%;
@@ -77,4 +82,7 @@ fieldset {
     width: 200px;
     margin-top: 50px;
     display: flex;
+}
+.imagens img {
+    width: 100px;
 }
