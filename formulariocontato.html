@@ -15,7 +15,7 @@
 
 <body>
     <header class="cabecalho">
-        <h1>Contato</h1>
+        <h1 class="h1-contato">Contato</h1>
         <div>
             <img class="alien" src="Imagens/logoheader.png" alt="logo alien pequeno">
         </div>
@@ -26,19 +26,34 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <form method="post" action="receber_dados">
-            <fieldset>
-                <label>Nome: </label>
-                <input type="text" id="user" name="nome">
-                <label>Email: </label>
-                <input type="email" id="user" name="email">
-                <label>Mensagem: </label>
-                <textarea name="Mensagem" cols="50" rows="15"></textarea>
-                <button>Enviar</button>
-            </fieldset>
-        </form>
+    <div class="container">
+        <main>
+            <section>
+                <div class="conteudo-principal">
+                    <form method="" action="">
+                        <fieldset>
+                            <div class="formulario">
+                                <div class="nome">
+                                    <label>Nome: </label>
+                                    <input type="text" id="user" name="nome">
+                                </div>
+                                <div class="email">
+                                    <label>Email: </label>
+                                    <input type="email" id="user" name="email">
+                                </div>
+                                <div class="mensagem">
+                                    <label>Mensagem: </label>
+                                    <textarea name="Mensagem" cols="50" rows="15"></textarea>
+                                </div>
+                                <button>Enviar</button>
+                            </div>
+                </div>
+                </fieldset>
+                </form>
+    </div>
+    </section>
     </main>
+    </div>
 </body>
 
 </html>
