@@ -1,20 +1,30 @@
 /* pagina index */
 body {
-    font-family: 'Chakra Petch', sans-serif;
     height: 100vh;
     width: 100vw;
     background-image: radial-gradient(circle at 52.39% 77.27%, #127da4 0, #1f607f 25%, #1f4459 50%, #192a36 75%, #0e1317 100%);
+    text-align: center;
 }
-header {
+.cabecalho {
+    width: 100%;
+    height: 80px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-a {
+.alien {
+    width: 50px;
+    height: 50px;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+a, h1 {
     text-decoration: none;
     color: #ffffff;
-}
-nav {
-    display: flex;
-    font-size: x-large
+    font-size: 24px;
 }
 img {
     border-radius: 50px;
@@ -29,33 +39,16 @@ fieldset {
     flex-direction: column;
     margin-top: 80px;
 }
-.sobremim_img {
-    display: flex;
-    justify-content: flex-start;  
-    margin-left: 100px;  
-}
-.alien {
-    display: flex;
-    margin-left: 60%;
-    width: 6%;
-}
-.hobbies_form {
-    display: flex;
-    margin-left: 220px;
-    gap: 40px;
-}
+
 .texto1 {
     color: #ffffff;
-    display: flex;
-    justify-content: center;
     text-decoration: underline;
     margin-top: 50px;
 }
 .texto2 {
     width: 50%;
     color: #ffffff;
-    margin-top: 50px; 
-    margin-left: 350px;  
+    margin-top: 50px;   
     text-decoration: none;
 
 }
@@ -63,16 +56,8 @@ fieldset {
     height: 200px;
     width: 200px;
     margin-top: 90px;
-    margin-left: 350px;
     display: flex;
-    flex-direction: row;
     gap: 30px;
-}
-/* pagina de hobbies e interesses */
-.hobbies_img {
-    display: flex;
-    justify-content: flex-start;  
-    margin-left: 100px;  
 }
 .texto3 {
     color: #ffffff;
@@ -85,20 +70,11 @@ fieldset {
     width: 50%;
     color: #ffffff;;
     margin-top: 70px; 
-    margin-left: 550px;  
     text-decoration: none;
 }
 .livros {
     height: 200px;
     width: 200px;
     margin-top: 50px;
-    margin-left: 490px;
     display: flex;
-    flex-direction: row;
-}
-/* pagina contato */
-.contato_img {
-    display: flex;
-    justify-content: flex-start;  
-    margin-left: 100px;
 }
