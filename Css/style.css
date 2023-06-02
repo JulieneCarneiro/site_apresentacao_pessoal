@@ -41,7 +41,7 @@ header h1 {
     align-items: center;
     gap: 30px;
 }
-.conteudo-principal-p, .lista-hobbies {
+.conteudo-principal > p, .lista-hobbies {
     color: #ffffff;
     font-size: 18px;
     width: 50ch;
