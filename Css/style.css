@@ -41,10 +41,14 @@ header h1 {
     align-items: center;
     gap: 30px;
 }
-.conteudo-principal > p, .lista-hobbies {
+.conteudo-principal > p,
+.conteudo-principal > ul > li {
     color: #ffffff;
     font-size: 18px;
     width: 50ch;
+}
+.conteudo-principal > ul > li{
+    text-align: center;
 }
 .imagens {
     display: flex;
@@ -55,9 +59,6 @@ header h1 {
     height: 250px;
     border-radius: 40px;
     object-fit: cover;
-}
-.lista-hobbies {
-    text-align: center;
 }
 .livros img {
     width: 250px;
@@ -70,7 +71,9 @@ header h1 {
     padding: 20px;
     color: #ffffff;
 }
-.nome, .email, .mensagem {
+.nome,
+.email,
+.mensagem {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
