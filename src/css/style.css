@@ -1,0 +1,10 @@
+/* imports globais */
+@import url(global/global.css);
+@import url(global/header.css);
+
+/* import pages */
+@import url(pages/index.css);
+@import url(pages/index-hobbies.css);
+@import url(pages/hobbies.css);
+@import url(pages/formularios.css);
+@import url(pages/mediaquery.css);

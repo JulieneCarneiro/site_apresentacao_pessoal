@@ -1,0 +1,12 @@
+.conteudo-principal > p,
+.conteudo-principal > ul > li {
+    color: #ffffff;
+    font-size: 18px;
+    width: 50ch;
+}
+.conteudo-principal > ul > li{
+    text-align: center;
+}
+
+
+

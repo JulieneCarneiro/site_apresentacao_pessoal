@@ -1,0 +1,24 @@
+@media screen and (max-width:800px) {
+    .container {
+        width: 500px;
+    }
+    .conteudo-principal-p {
+        font-size: 14px;
+    }
+    .imagens {
+        gap: 15px;        
+    }
+    .imagens img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+@media screen and (max-width:650px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+    .alien {
+        display: none;
+    }
+}

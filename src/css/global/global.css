@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-image: radial-gradient(circle at 52.39% 77.27%, #127da4 0, #1f607f 25%, #1f4459 50%, #192a36 75%, #0e1317 100%);
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.imagens {
+    display: flex;
+    gap: 30px;
+}
+
+a, h1, h2 {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
