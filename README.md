@@ -1,4 +1,4 @@
-# projetoIndividualM1
+# site_apresentacao_pessoal
 Projeto individual do módulo 1 - Códigos do Amanhã <br>
 Projeto sobre apresentação pessoal, foi pedido para escrever um resumo sobre mim, hobbies e interesses, formulário pra contato.<br> 
 Foi utilizado html e css para construção do projeto.<br>
